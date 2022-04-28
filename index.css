@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-image: linear-gradient(to top, red, black);
+}
+
+.table_form {
+  width: 400px;
+  max-width: 400px;
+  height: 550px;
+  color: black;
+  position: absolute;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.titulo_calculadora {
+  width: 150px;
+  height: 70px;
+  border-radius: 4%;
+  border: solid black;
+  position: absolute;
+  top: -50px;
+  left: calc(42% - 50px);
+  background-color: #fb2525;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+.table_form p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.table_form input {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.table_form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.table_form input[type="button"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+#resultado{
+  color: white;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: none;
+  font-size: 18px;
+  text-align: center;
+
+  margin-bottom: -20px;
+  border-bottom: 1px solid #fb2525;
+  
+}
